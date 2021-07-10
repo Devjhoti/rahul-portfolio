@@ -15,7 +15,7 @@
 .section1{
     
     display: flex;
-    background-image: url(/images/top-banner.png);
+    background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
     margin-bottom: 100px;
 }
