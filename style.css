@@ -1,14 +1,51 @@
 .TopHeader{
-    font-family: 'Poppins', sans-serif;
+    
     font-size: 50px;
 }
 .orange{
     color: orange;
 }
 .intro{
-    font-family: 'Poppins', sans-serif;
+    
 
 }
 .paragraph1{
+    
+}
+.section1{
+    
+    display: flex;
+    background-image: url(/images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.div1{
+    padding-right:200px ;
+    padding-left: 100px;
+}
+.div2{
+    padding-right: 100px;
+}
+.button1{
+    
+    text-decoration: none;
+    background-image: linear-gradient(tomato,orange);
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+
+}
+body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.half{
+    width: 50%;
+    padding-left:2% ;
+    
+}
+.half img{
+    width: 80%;
+    
+    
 }
