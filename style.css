@@ -6,12 +6,13 @@
     color: orange;
 }
 .intro{
-    
+    font-size: 30px;
+    background-image: linear-gradient(#ffa600e8,#fb6c59c9);
+    text-align: center;
+    border-radius: 10px;
 
 }
-.paragraph1{
-    
-}
+
 .section1{
     
     display: flex;
@@ -23,7 +24,7 @@
 .button1{
     
     text-decoration: none;
-    background-image: linear-gradient(tomato,orange);
+    background-image: linear-gradient(tomato,rgba(255, 166, 0, 0.651));
     padding: 10px 30px;
     color: white;
     border-radius: 10px;
@@ -33,6 +34,8 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+    
+    
 }
 .half{
     width: 50%;
@@ -49,6 +52,7 @@ body{
     background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 200px;
     
 }
 .sec2head{
@@ -66,9 +70,73 @@ body{
 }
 .button2{
     text-decoration: none;
-    background-image: linear-gradient(tomato,pink);
+    background-image: linear-gradient(tomato,rgba(233, 19, 55, 0.829));
     padding: 10px 30px;
     color: white;
     border-radius: 10px;
     font-weight: 700;
+}
+.section3{
+    display: flex;
+    margin-bottom: 200px;
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+    
+
+    
+}
+.section3 h1{
+    font-size: 32px;
+}
+.section3 h3{
+    color:#FF9F32 ;
+}
+.etc{
+    text-align: right;
+}
+#fun{
+    
+    box-shadow: 10px 10px 20px gray;
+    padding-right: 100px;
+    border-left: 7px solid ;
+    border-radius: 20px;
+    border-image: linear-gradient(green,yellowgreen);
+    border-image-slice: 1;
+    
+}
+#int{
+    box-shadow: 10px 10px 20px gray;
+    margin-left: 100px;
+    padding-right: 100px;
+    border-left: 7px solid ;
+    border-radius: 20px;
+    border-image: linear-gradient(rgb(238, 255, 3),orange);
+    border-image-slice: 1;
+}
+#adv{
+    box-shadow: 10px 10px 20px gray;
+    margin-left: 100px;
+    padding-right: 100px;
+    border-left: 7px solid ;
+    border-radius: 20px;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+}
+.section3div{
+    padding: 20px;
+    padding-left: 8%;
+    display: flex;
+}
+#CD{
+    margin-left: 150px;
+    
+}
+#footer{
+    text-align: center;
+    font-weight: 300;
+}
+.paragraph1{
+    text-align: justify;
 }
