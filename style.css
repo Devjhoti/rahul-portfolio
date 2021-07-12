@@ -46,6 +46,10 @@ body{
 }
 .section2{
     display: flex;
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
 }
 .sec2head{
     font-size: 40px;
