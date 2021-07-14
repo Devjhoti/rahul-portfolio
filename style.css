@@ -98,7 +98,8 @@ body{
 }
 #fun{
     
-    box-shadow: 10px 10px 20px gray;
+    box-shadow: 10px 10px 40px gray;
+    padding-top: 20px;
     padding-right: 100px;
     border-left: 7px solid ;
     border-radius: 20px;
@@ -107,16 +108,19 @@ body{
     
 }
 #int{
-    box-shadow: 10px 10px 20px gray;
+    box-shadow: 10px 10px 40px gray;
+    padding-top: 20px;
     margin-left: 100px;
     padding-right: 100px;
     border-left: 7px solid ;
+    padding-bottom: 100px;
     border-radius: 20px;
     border-image: linear-gradient(rgb(238, 255, 3),orange);
     border-image-slice: 1;
 }
 #adv{
-    box-shadow: 10px 10px 20px gray;
+    box-shadow: 10px 10px 40px gray;
+    padding-top: 20px;
     margin-left: 100px;
     padding-right: 100px;
     border-left: 7px solid ;
@@ -126,7 +130,7 @@ body{
 }
 .section3div{
     padding: 20px;
-    padding-left: 8%;
+    padding-left: 10%;
     display: flex;
 }
 #CD{
@@ -139,4 +143,16 @@ body{
 }
 .paragraph1{
     text-align: justify;
+}
+.reg-button{
+    text-decoration: none;
+    text-align: center;
+    background-image: linear-gradient(#88C42C,rgba(180, 190, 30, 0.692));
+    padding: 10px 40px;
+    border-radius: 10px;
+    color:white;
+    font-weight: 900;
+}
+#basic{
+    padding-bottom: 2px;
 }
