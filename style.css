@@ -139,7 +139,7 @@ body{
 }
 #footer{
     text-align: center;
-    font-weight: 300;
+    font-weight: 100;
 }
 .paragraph1{
     text-align: justify;
@@ -152,7 +152,27 @@ body{
     border-radius: 10px;
     color:white;
     font-weight: 900;
+    margin-left: 12px;
 }
 #basic{
     padding-bottom: 2px;
+}
+.social{
+    padding-left: 850px;
+}
+.fab{
+    font-size: 40px;
+    margin-right: 10px;
+}
+.fa-facebook{
+    color: #0C88EF;
+}
+.fa-youtube{
+    color:#F70000 ;
+}
+.fa-linkedin{
+    color: #2464AD;
+}
+.fa-github{
+    color: #161415;
 }
